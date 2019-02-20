@@ -4,7 +4,7 @@ composerを用いて管理を行うが社内ライブラリになるためpackag
 そのためbitbucketから直接読み込むことになったのでその方法。
 
 とりあえず自作ライブラリをbitbucket上のリポジトリに突っ込む
-ライブラリを読み込みたいプロジェクトのcomposer.initに
+ライブラリを読み込みたいプロジェクトのcomposer.jsonに
 
 >{
 >    "name": "project_owner/project",

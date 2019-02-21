@@ -3,7 +3,7 @@ gitを扱う上でaddしてcommitしてpushするってのが基本的な一連�
 毎回`git add ~` `git commit -m "~"` `git push ~`てのは面倒でして。
 aliasを使うことにしました。
 
-"" aliasとは
+## aliasとは
 **別名**を意味する言葉でITの分野では**別の名前で参照するためのシンボル**といった意味で使われることが多い
 
 aliasは`.bashrc`に記述します。

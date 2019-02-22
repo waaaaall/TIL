@@ -6,28 +6,28 @@ composerを用いて管理を行うが社内ライブラリになるためpackag
 とりあえず自作ライブラリをbitbucket上のリポジトリに突っ込む  
 ライブラリを読み込みたいプロジェクトのcomposer.jsonに  
   
->{
->    "name": "project_owner/project",
->    "type": "project",
->    "authors": [
->        {
->            "name": "MyName",
->            "email": "exmaple@co.jp"
->        }
->    ],
->    "repositories":[
->      {
->        "packagist": false
->      },
->      {
->        "type": "git",
->        "url": "リポジトリURL"
->      }
->    ],
->    "require": {
->        "自作ライブラリ名": "dev-master"
->    }
->}
+>{  
+>    "name": "project_owner/project",  
+>    "type": "project",  
+>    "authors": [  
+>        {  
+>            "name": "MyName",  
+>            "email": "exmaple@co.jp"  
+>        }  
+>    ],  
+>    "repositories":[  
+>      {  
+>        "packagist": false  
+>      },  
+>      {  
+>        "type": "git",  
+>        "url": "リポジトリURL"  
+>      }  
+>    ],  
+>    "require": {  
+>        "自作ライブラリ名": "dev-master"  
+>    }  
+>}  
   
 こんな感じで記述する。  
   

@@ -34,3 +34,10 @@ composerを用いて管理を行うが社内ライブラリになるためpackag
 `packagist: false`を記述するとpacakgistを探しに行かないため多少早くなるらしい。
 
 後は`composer update`をして終わり。
+
+---
+### 追記20190222
+`"url": "リポジトリurl"`がsshかhttpsかでエラーを吐く場合がある。
+sshの場合はリポジトリのアカウントにssh keyを登録しておく必要がある。
+httpsの場合は`comopsr update`時にuserとpassを求められる。
+urlにuserとpassを含むことでも認証が可能。

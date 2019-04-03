@@ -17,7 +17,7 @@ MariaDBが動いているようであれば停止させる。
 `systemctl stop mariadb`  
   
 次のコマンドで更新を行う。  
-'yum update MariaDB-server MariaDB-client'  
+`yum update MariaDB-server MariaDB-client`  
   
 更新が無事に終了したらMariaDBを開始する。  
 `systemctl start mariadb`  

@@ -25,7 +25,7 @@ MariaDBが動いているようであれば停止させる。
 上記で更新が完了する。  
 バージョンから更新が完了していることを確認しよう。  
   
-## 弊社の話
+## Pleskの話
 Pleskで管理をしている場合，管理画面にアクセスしようとすると`ERROR: Zend_Db_Adapter_Exception: SQLSTATE[HY000] [2002] No such file or directory
 `が表示される場合がある。  
 その場合は`systemctl start mysql`を実行した後に`plesk sbin packagemng -sdf`を実行する。  

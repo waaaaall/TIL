@@ -32,8 +32,8 @@ Pleskで管理をしている場合，管理画面にアクセスしようとす
 これでPlesk内のパッケージが更新されるはずだ。  
   
 ### 参考URL
-`https://qiita.com/nyanyamo/items/ccd7141edd85175c0a93`  
-`https://mariadb.com/kb/en/library/yum/`  
-`https://mariadb.com/kb/en/library/mariadb-package-repository-setup-and-usage/`  
-`https://support.plesk.com/hc/ja/articles/213403429--MySQL-%E3%82%92%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3-5-5-%E3%81%8B%E3%82%89-5-6-%E3%81%AB%E3%82%A2%E3%83%83%E3%83%97%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89%E3%81%99%E3%82%8B%E3%81%AB%E3%81%AF%E3%81%A9%E3%81%86%E3%81%99%E3%82%8C%E3%81%B0%E3%82%88%E3%81%84%E3%81%A7%E3%81%99%E3%81%8B-`  
-`https://support.plesk.com/hc/en-us/articles/360002343794-Plesk-inaccessible-ERROR-Zend-Db-Adapter-Exception-SQLSTATE-HY000-2002-No-such-file-or-directory`  
+[centOS7にいれたMariaDB5.5をv10.2にアップデートしたよ](https://qiita.com/nyanyamo/items/ccd7141edd85175c0a93)  
+[Installing MariaDB with yum/dnf](https://mariadb.com/kb/en/library/yum/)  
+[MariaDB Package Repository Setup and Usage](https://mariadb.com/kb/en/library/mariadb-package-repository-setup-and-usage/)  
+[MySQL をバージョン 5.5 から 5.6 にアップグレードするにはどうすればよいですか？](https://support.plesk.com/hc/ja/articles/213403429--MySQL-%E3%82%92%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3-5-5-%E3%81%8B%E3%82%89-5-6-%E3%81%AB%E3%82%A2%E3%83%83%E3%83%97%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89%E3%81%99%E3%82%8B%E3%81%AB%E3%81%AF%E3%81%A9%E3%81%86%E3%81%99%E3%82%8C%E3%81%B0%E3%82%88%E3%81%84%E3%81%A7%E3%81%99%E3%81%8B-)   
+[Plesk inaccessible ERROR Zend_Db_Adapter_Exception SQLSTATE](https://support.plesk.com/hc/en-us/articles/360002343794-Plesk-inaccessible-ERROR-Zend-Db-Adapter-Exception-SQLSTATE-HY000-2002-No-such-file-or-directory)
